@@ -99,7 +99,7 @@
      border: none;
      border-bottom: 1px solid transparent;
      padding: 5px;
-     border-image: linear-gradient(to right, #00cc8f 0%, #ffffff 100%);
+     border-image: -webkit-linear-gradient(to right, #00cc8f 0%, #ffffff 100%);
      /* #108db3 */
      border-image-slice: 1;
 }
@@ -112,7 +112,7 @@
      border: none;
      border-bottom: 1px solid transparent;
      padding: 5px;
-     border-image: linear-gradient(to right, #00cc8f 0%, #ffffff 100%);
+     border-image: -webkit-linear-gradient(to right, #00cc8f 0%, #ffffff 100%);
      border-image-slice: 1;
 }
 .log-in input::placeholder{

@@ -93,7 +93,7 @@
      border: none;
      border-bottom: 1px solid transparent;
      padding: 5px;
-     border-image: linear-gradient(to right, #00cc8f 0%, #108db3 100%);
+     border-image:  -webkit-linear-gradient(to right, #00cc8f 0%, #108db3 100%);
      border-image-slice: 1;
 }
 .log-in input[type=password]{
@@ -105,7 +105,7 @@
      border: none;
      border-bottom: 1px solid transparent;
      padding: 5px;
-     border-image: linear-gradient(to right, #00cc8f 0%, #108db3 100%);
+     border-image:  -webkit-linear-gradient(to right, #00cc8f 0%, #108db3 100%);
      border-image-slice: 1;
 }
 .log-in input::placeholder{
