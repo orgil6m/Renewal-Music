@@ -5,15 +5,18 @@
      font-family: 'Montserrat', sans-serif;
      text-decoration: none;
 }
+body{
+     background-image: url(../Photos/background6.jpeg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+}
 .container{
      width: 100%;
      height: 100vh;
      display: flex;
      align-items: center;
-     justify-content: center;
-     background-image: url(../Photos/background6.jpeg);
-     background-size: cover;
-     background-position: center;
+     justify-content: center;   
 }
 
 .log-in-container{
@@ -34,7 +37,7 @@
 @media screen and (max-aspect-ratio: 16/9) {
 .log-in-container .logo{
      position: absolute;
-     top: 15%;
+     top: 12%;
      width: 50%;
      display: flex;
      align-items: center;
@@ -87,7 +90,6 @@
 .log-in img{
      height: 20px;
      fill: white;
-     /* opacity: 80%; */
      margin-right: 10px;
 }
 .log-in input[type=text]{
@@ -99,8 +101,7 @@
      border: none;
      border-bottom: 1px solid transparent;
      padding: 5px;
-     border-image: -webkit-linear-gradient(to right, #00cc8f 0%, #ffffff 100%);
-     /* #108db3 */
+     border-image: linear-gradient(to right, #00cc8f 0%, #ffffff 100%);
      border-image-slice: 1;
 }
 .log-in input[type=password]{
@@ -110,9 +111,9 @@
      height: 20px;
      width: 250px;
      border: none;
-     border-bottom: 1px solid transparent;
+     border-bottom: 1px solid;
      padding: 5px;
-     border-image: -webkit-linear-gradient(to right, #00cc8f 0%, #ffffff 100%);
+     border-image: linear-gradient(to right, #00cc8f 0%, #ffffff 100%);
      border-image-slice: 1;
 }
 .log-in input::placeholder{
