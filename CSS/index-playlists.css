@@ -1,0 +1,96 @@
+.playlist-title{
+     width: 80%;
+     height: 50px;
+     display: flex;
+     align-items: center;
+     margin-left: 5%;
+}
+.playlist-title p{
+     font-size: 30px;
+     font-weight: 600;
+}
+.playlist-con{
+     margin-top: 20px;
+     margin-bottom: 70px;
+     width: auto;
+     height: auto;
+     display: flex;
+     overflow-x: scroll;
+     overflow-y: hidden;
+     white-space: nowrap;
+     scrollbar-width: none; 
+}
+.playlist-con::-webkit-scrollbar{
+     display: none;
+}
+.playlist-con .playlist-card{
+     margin-left: 5%;
+     display: inline-block;
+     flex: 0 0 auto;
+     width: 250px;
+     height: 300px;
+     background-color: rgb(22, 22, 22);
+     border-radius: 5px;
+     transition: .3s ease;
+     box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
+}
+.playlist-con .playlist-card .playlist-img{
+     width: 250px;
+     height: 250px;
+     background-color: cyan;
+     display: flex;
+     justify-content: flex-end;
+     align-items: flex-end;
+}
+.playlist-con .playlist-card .playlist-img i{   
+     font-size: 40px;
+     margin: 15px;
+     opacity: 0;
+     color: rgb(255, 255, 255);
+     text-shadow: 0px 10px 5px rgba(146, 146, 146, 0.178);
+     transition: transform 250ms;
+}
+.playlist-con .playlist-card:hover i{
+     transform: translateY(-5px);
+     opacity: 1;
+     top: 0;
+}
+.playlist-con .playlist-card:hover{
+     background-color: rgb(31, 31, 31)
+}
+.playlist-con .card-1{
+     background-image: url(../Photos/orgilPlaylist.jpeg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+}
+.playlist-con .card-2{
+     background-image: url(../Photos/nyamkaPlaylist.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+}
+.playlist-con .card-3{
+     background-image: url(../Photos/ermuunPlaylist.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+}
+.playlist-con .playlist-card .playlist-text{
+     width: 100%;
+     height: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.playlist-con .playlist-card p{
+     margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}

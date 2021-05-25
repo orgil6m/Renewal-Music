@@ -1,0 +1,68 @@
+.top-artists-con{
+     margin-bottom: 70px;
+     width: 100%;
+     height: auto;
+}
+.top-artists-con .title{
+     width: auto;
+     height: 50px;
+     display: flex;
+     align-items: center;
+     margin-left: 5%;
+}
+.top-artists-con .title p{
+     font-size: 30px;
+     font-weight: 600;
+     
+}
+.top-artists-con #index-top-row{
+     margin-left: 5%;
+     height: 280px;
+     width: auto;
+     display: flex;
+     align-items: center;
+
+     overflow-x: scroll;
+     overflow-y: hidden;
+     white-space: nowrap;
+     scrollbar-width: none; 
+}
+.top-artists-con #index-top-row .index-top-card{
+     width: 180px;
+     height: 250px;
+     background-color: rgb(22, 22, 22);
+     border-radius: 5px;
+     margin-right: 3%;
+     flex: 0 0 auto;
+     transition: .3s ease;
+     box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
+}
+.top-artists-con #index-top-row .index-top-card .index-top-img-con{
+     width: 86%;
+     margin-left:7%;
+     margin-top: 7%; 
+     margin-bottom:7%;
+}
+.top-artists-con #index-top-row .index-top-card .index-top-img-con img{
+     width: 100%;
+     border-radius: 5px;
+}
+.top-artists-con #index-top-row .index-top-card .index-top-p-con{
+     width: 100%;
+     height: 25%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: flex-start;  
+}
+.top-artists-con #index-top-row .index-top-card:hover{
+     background-color: rgb(31, 31, 31);
+}
+.top-artists-con #index-top-row .index-top-card:hover p{
+     color: rgb(20, 220, 63);
+}
+#index-top-p-artist{
+     font-size: 20px;
+     font-weight: 600;
+     margin-bottom: 5px;
+}
