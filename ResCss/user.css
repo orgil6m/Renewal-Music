@@ -1,0 +1,171 @@
+*{
+     margin: 0;
+     padding: 0;
+     color: white;
+     font-family: 'Montserrat', sans-serif;
+     text-decoration: none;
+}
+.container{
+     width: 100%;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-image: url(../Photos/background6.jpeg);
+     background-size: cover;
+     background-position: center;
+}
+
+.log-in-container{
+     width: 90%;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+.log-in-container .log-in{
+     top: 30%;
+     position: absolute;
+     width: 100%;
+     height: 70%;
+}
+
+@media screen and (max-aspect-ratio: 16/9) {
+.log-in-container .logo{
+     position: absolute;
+     top: 15%;
+     width: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-size: cover;
+     background-position: center;
+     border-radius: 10px;
+
+}
+}
+.log-in{
+     width: 100%;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+.logo img{
+     width: 100%;
+     opacity: 100%;
+}
+.log-in .title{
+     height: 25%;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     display: none;
+}
+.log-in .title p{
+     font-size: 35px;
+     font-weight: 500;
+     display: none;
+}
+.log-in .con-con{
+     width: 80%;
+     height: auto;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+.log-in .con{
+     height: 70px;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.log-in img{
+     height: 20px;
+     fill: white;
+     /* opacity: 80%; */
+     margin-right: 10px;
+}
+.log-in input[type=text]{
+     color: rgb(255, 255, 255);
+     outline: none;
+     background-color: transparent;
+     height: 20px;
+     width: 250px;
+     border: none;
+     border-bottom: 1px solid transparent;
+     padding: 5px;
+     border-image: linear-gradient(to right, #00cc8f 0%, #ffffff 100%);
+     /* #108db3 */
+     border-image-slice: 1;
+}
+.log-in input[type=password]{
+     color: rgb(255, 255, 255);
+     outline: none;
+     background-color: transparent;
+     height: 20px;
+     width: 250px;
+     border: none;
+     border-bottom: 1px solid transparent;
+     padding: 5px;
+     border-image: linear-gradient(to right, #00cc8f 0%, #ffffff 100%);
+     border-image-slice: 1;
+}
+.log-in input::placeholder{
+     font-size: 15px;
+     color: rgba(255, 255, 255, 0.8);
+}
+.remember{
+     width: 250px;
+     height: 70px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.wrong{
+     width: 100%;
+     text-align: center;
+     font-size: 12px;
+}
+.wrong p{
+     color: #ff353f;
+}
+.forgotpass{
+     width: 100%;
+     height: 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 14px;
+     cursor: default;
+}
+.forgotpass p{
+     color: rgb(255, 255, 255);
+}
+.forgotpass p:hover{
+     color: rgb(255, 255, 255);
+}
+.button-con{
+     width: 100%;
+     height: 85px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.button-con .log-in-button{
+     width: 200px;
+     height: 45px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-image: linear-gradient(to right, #00cc8f 0%, #108db3 100% );
+     border-radius: 5px;
+     cursor: default;
+}
+.log-in input[type=checkbox]{
+     margin: 10px;
+}
