@@ -93,7 +93,6 @@
      border: none;
      border-bottom: 1px solid white;
      padding: 5px;
-     border-image-slice: 1;
 }
 .log-in input[type=password]{
      color: rgb(255, 255, 255);
@@ -104,7 +103,6 @@
      border: none;
      border-bottom: 1px solid  white;
      padding: 5px;
-     border-image-slice: 1;
 }
 .log-in input::placeholder{
      font-size: 15px;
