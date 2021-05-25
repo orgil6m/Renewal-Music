@@ -99,9 +99,9 @@ body{
      height: 20px;
      width: 250px;
      border: none;
-     border-bottom: 1px solid transparent;
+     border-bottom: 1px solid rgba(255, 255, 255, 0.7);
      padding: 5px;
-     border-image: linear-gradient(to right, #00cc8f 0%, #ffffff 100%);
+     /* border-image: linear-gradient(to right, #00cc8f 0%, #ffffff 100%); */
      border-image-slice: 1;
 }
 .log-in input[type=password]{
@@ -111,9 +111,9 @@ body{
      height: 20px;
      width: 250px;
      border: none;
-     border-bottom: 1px solid;
+     border-bottom: 1px solid rgba(255, 255, 255, 0.7);
      padding: 5px;
-     border-image: linear-gradient(to right, #00cc8f 0%, #ffffff 100%);
+     /* border-image: linear-gradient(to right, #00cc8f 0%, #ffffff 100%); */
      border-image-slice: 1;
 }
 .log-in input::placeholder{
