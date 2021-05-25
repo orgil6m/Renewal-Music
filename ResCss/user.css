@@ -34,10 +34,9 @@ body{
      height: 70%;
 }
 
-@media screen and (max-aspect-ratio: 16/9) {
 .log-in-container .logo{
      position: absolute;
-     top: 12%;
+     top: 11%;
      width: 50%;
      display: flex;
      align-items: center;
@@ -45,8 +44,6 @@ body{
      background-size: cover;
      background-position: center;
      border-radius: 10px;
-
-}
 }
 .log-in{
      width: 100%;
@@ -101,8 +98,6 @@ body{
      border: none;
      border-bottom: 1px solid rgba(255, 255, 255, 0.7);
      padding: 5px;
-     /* border-image: linear-gradient(to right, #00cc8f 0%, #ffffff 100%); */
-     border-image-slice: 1;
 }
 .log-in input[type=password]{
      color: rgb(255, 255, 255);
@@ -113,8 +108,6 @@ body{
      border: none;
      border-bottom: 1px solid rgba(255, 255, 255, 0.7);
      padding: 5px;
-     /* border-image: linear-gradient(to right, #00cc8f 0%, #ffffff 100%); */
-     border-image-slice: 1;
 }
 .log-in input::placeholder{
      font-size: 15px;
