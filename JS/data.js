@@ -256,8 +256,11 @@ const playList = [
           name: "Мөнх-Оргил",
           user :  "Orgil",
           photo : "orgilPlaylist.jpeg",
+          // songs : [
+          //      "haru haru", "namaig too", "huuhdiin 100", "erh duraaraa galzuu", "ahin dahin durlamaar", "sain bisx", "chas tas", "too shy", "hyazgaargui", "muu zurshil", "bidnii amidardag ertunts",
+          // ],
           songs : [
-               "haru haru", "namaig too", "huuhdiin 100", "erh duraaraa galzuu", "ahin dahin durlamaar", "sain bisx", "chas tas", "too shy", "hyazgaargui", "muu zurshil", "bidnii amidardag ertunts",
+               "sanasan baina", "gund", "chi nadad durlaasai", "udaanaar", "chamd uldeey", "hurch chadahgui", "margaash borootoi", "ganbei", "boroo", "chas tas", "nergui duu",  "muu zurshil", "minii nirvana", "bid 2", "hyazgaargui", "bayartai", "chi", "too deep", "galt tereg", "18 savage",
           ],
           link : "O-Mix.html",
           cover : "orgilCover.png",

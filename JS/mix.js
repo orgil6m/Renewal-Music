@@ -37,8 +37,8 @@ function displaySongsArtists(x){
                     }
                }
           }
-          
      }
+     console.log(newDivImg);
      newDivImg += '<div class="img-img">'
      + '<img src="../Photos/' + playList[x].photo+'" alt="" id = "cd">'
      + '</div>'
@@ -62,6 +62,8 @@ function displaySongsArtists(x){
      +' </div>'
      document.getElementById('songs-con').innerHTML = newDivSongs;
      document.getElementById('img-con').innerHTML = newDivImg;
+     console.log(newDivImg);
+     console.log(newDivSongs);
      index = x;
 }
 
