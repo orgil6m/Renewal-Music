@@ -1,0 +1,225 @@
+.modal{
+     display: none;
+     position: fixed;
+     z-index: 1;
+     left: 0;
+     top: 0;
+     width: 100%;
+     overflow: hidden; 
+}   
+.modal-content{
+     position: fixed;
+     bottom: 0;
+     background-color: #1d1d1d;
+     width: 100%;
+     height: 100px;
+     display: flex;
+     justify-content: center;
+}
+.close{
+     color: white;
+     float: right;
+     font-size: 28px;
+     font-weight: bold;
+}
+.modal-body{
+     width: 90%;
+     height: 100%;
+     display: flex;
+}
+.modal-left{
+     width: 60%;
+     height: 100%;
+     display: flex;
+}
+.modal-left .modal-img{
+     height: 100%;
+     width: 100px;
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+}
+.modal-img img{
+     height: 75px;
+     width: 75px;
+     border-radius: 2px;
+}
+#ind-modal-img img{
+     height: 70px;
+     width: 70px;
+     border-radius: 2px;
+}
+.modal-left .modal-inf{
+     height:100%;
+     width: 60%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+.modal-left .modal-inf #modal-info-name{
+     height: 25%;
+     width: 110px;
+     display: flex;
+     align-items: center;
+}
+.modal-left .modal-inf #ind-modal-info-name{
+     height: 25%;
+     width: 110px;
+     display: flex;
+     align-items: center;
+}
+.modal-left .modal-inf #modal-info-name p{
+     white-space: nowrap; 
+     overflow: hidden;
+     text-overflow: ellipsis;
+     font-size: 20px;
+     font-weight: 500;
+}
+.modal-left .modal-inf #ind-modal-info-name p{
+     white-space: nowrap; 
+     overflow: hidden;
+     text-overflow: ellipsis;
+     font-size: 20px;
+     font-weight: 500;
+}
+.modal-left .modal-inf #modal-info-artist{
+     height: 25%;
+     width: auto;
+     display: flex;
+     align-items: center;
+}
+.modal-left .modal-inf #ind-modal-info-artist{
+     height: 25%;
+     width: auto;
+     display: flex;
+     align-items: center;
+}
+
+.modal-left .modal-inf #modal-info-artist p{
+     font-size: 15px;
+     opacity: 70%;
+}
+.modal-left .modal-inf #ind-modal-info-artist p{
+     font-size: 15px;
+     opacity: 70%;
+}
+.modal-center{
+     width: 40%;
+     height: 100%;
+}
+.modal-center .modal-buttons{
+     height: 70%;
+     width: 100%;
+     display: flex;
+}
+.modal-center .modal-buttons .play-prev{
+     width: 40%;
+     height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.modal-center .modal-buttons .play-play{
+     width: 20%;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.modal-center .modal-buttons .play-next{
+     width: 40%;
+     height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.modal-buttons i{
+     transform: scale(1.2);
+}
+.modal-buttons i{
+     transform: scale(1.2);
+     opacity: 70%;
+}
+.modal-buttons i:hover{
+     opacity: 100%;
+}
+.modal-buttons .play-play i{
+     opacity: 100%;
+     transform: scale(1.9);
+}
+.modal-buttons .play-play i:active{
+     transform: scale(1.7);
+}
+.modal-center .modal-player{
+     height: 30%;
+     width: 100%;
+     display: flex;
+     align-items: flex-start;
+     justify-content: space-between;
+}
+.modal-player .time-index{
+     width: auto;
+     height: auto;
+}
+.modal-center .modal-player p {
+     margin-top: -3px;
+     font-size: 12px;
+     opacity: 70%;
+}
+.modal-center input[type = range]{
+     -webkit-appearance: none;
+     width: 70px;
+     height: 3px;
+     margin-top: 3px;
+     background:rgba(255, 255, 255, 0.288);
+}
+input[type=range]::-webkit-slider-thumb {
+     height: 15px;
+     width: 15px;
+     border-radius: 50%;
+     background: rgb(39, 206, 75);
+     cursor: pointer;
+     -webkit-appearance: none;
+}  
+input[type=range]:focus {
+     outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+     width: 70%; 
+     cursor: pointer;
+     border: none;
+}
+input[type=range]::-moz-range-track {
+     width: 70%;
+     cursor: pointer;
+}
+input[type=range]::-moz-range-thumb {
+     height: 15px;
+     width: 15px;
+     border-radius: 50%;
+     cursor: pointer;
+}
+input[type=range]::-ms-track {
+     width: 70%;
+     height: 7.5px;
+     cursor: pointer;
+     background: transparent;
+     border-color: transparent;
+     color: transparent;
+}
+
+input[type=range]::-ms-thumb {
+     height: 15px;
+     width: 15px;
+     border-radius: 50%;
+     cursor: pointer;
+}
+
+.modal-right{
+     width: 30%;
+     height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     display: none;
+}

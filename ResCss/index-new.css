@@ -1,0 +1,122 @@
+.new-songs-con{
+     width: 100%;
+     height: auto;
+     margin-bottom: 150px;
+}
+.new-songs-con .title{
+     width: auto;
+     height: 50px;
+     display: flex;
+     align-items: center;
+     margin-left: 5%;
+     margin-bottom: 20px;
+     justify-content: space-between;
+}
+.new-songs-con .title p{
+     cursor: default;
+     font-size: 25px;
+     font-weight: 600;
+}
+#seeAll{
+    font-size: 13px;
+    font-weight: 400;
+    margin-right:10%;
+    color: rgba(255, 255, 255, 0.7);
+}
+#seeAll:hover{
+     transition: .2s ease;
+     text-decoration: underline;
+     color: rgb(255, 255, 255);
+}
+.new-songs-con .songs-con{
+     margin-left: 5%;
+     width: 90%;
+     height: auto;
+
+}
+.songs-con .songs-bar{
+     height: 80px;
+     width: 100%;
+     margin-bottom: 10px;
+     border-radius: 5px;
+     display: flex;
+     justify-content: space-around;
+} 
+.songs-con .songs-bar:hover{
+     background-color: rgb(30, 30, 30);
+}
+.songs-con .songs-bar .ind-songs-img{
+     height: 100%;
+     width: 80px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.songs-con .songs-bar .ind-songs-img img{
+     width:60px;
+     border-radius: 2px;
+}
+.songs-con .ind-songs-info{
+     width: 50%;
+     white-space: nowrap; 
+     overflow: hidden;
+     text-overflow: ellipsis;
+     height: 100%;
+     display: flex;
+     margin-left: 10px;
+     flex-direction: column;
+     justify-content: space-between;
+}
+.songs-con .ind-songs-info-name{
+     height: 50%;
+     width: auto;
+     display: flex;
+     align-items: flex-end;
+}
+.songs-con .ind-songs-info-name p{
+    font-size: 17px;
+    font-weight: 500;
+}
+.songs-con .ind-songs-info-artist{
+     height: 45%;
+     width: auto;
+     display: flex;
+     align-items: flex-start;
+}
+.songs-con .ind-songs-info-artist p{
+     opacity: 70%;
+}
+.songs-con .ind-songs-time{
+     width: 20%;
+     height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+}
+.songs-con .ind-songs-time p{
+     opacity: 70%;
+}
+.songs-con .ind-songs-play{
+     width: 50px;
+     height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+}
+.songs-con .ind-songs-play i{
+     font-size: 25px;
+     opacity: 70%;
+     color: rgba(68, 255, 61, 0.829);
+     transition: ease .1s;
+} 
+.songs-con .songs-bar:hover i{
+     transform: scale(1.2);
+     opacity: 100%;
+}
+.songs-con-active{
+     background-color: rgba(75, 75, 75, 0.5);
+}
+.songs-con-active .ind-songs-play i{
+     transform: scale(1.2);
+     opacity: 100%;
+}
