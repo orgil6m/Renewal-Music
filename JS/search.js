@@ -252,6 +252,6 @@ function replayTrack(){
      }
 }
 function moveArtist(x){
-     x = "../Artists/" + x;
+     x = "./Artists/" + x;
      window.location.replace(x);
 }

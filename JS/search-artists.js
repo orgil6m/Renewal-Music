@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 function displayData(){
      let divCard = "";
      for (let i = 0; i < 5; i++) {
-          divCard += '<div class="pre-dis-card"><a href="../Artists/' + data[i].link + '">' 
+          divCard += '<div class="pre-dis-card"><a href="./Artists/' + data[i].link + '">' 
           + '<div class = "pre-dis-img-con">'
           + '<img src = "./Photos/artists/' + data[i].photo + '">'
           + '</div>'
@@ -18,7 +18,7 @@ function displayData(){
      document.getElementById('pre-dis-row-1').innerHTML = divCard;
      let divCard2 = "";
      for (let i = 5; i < 10; i++) {
-          divCard2 += '<div class="pre-dis-card"><a href="../Artists/' + data[i].link + '">'
+          divCard2 += '<div class="pre-dis-card"><a href="./Artists/' + data[i].link + '">'
           + '<div class = "pre-dis-img-con">'
           + '<img src = "./Photos/artists/' + data[i].photo + '">'
           + '</div>'

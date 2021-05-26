@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 function displayData(){
      let divCard = "";
      for (let i = 0; i < data.length; i++) {
-          divCard += '<div class="index-top-card"><a href="../Artists/' + data[i].link + '">' 
+          divCard += '<div class="index-top-card"><a href="./Artists/' + data[i].link + '">' 
           + '<div class = "index-top-img-con">'
           + '<img src = "./Photos/artists/' + data[i].photo + '">'
           + '</div>'
