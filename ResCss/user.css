@@ -55,7 +55,6 @@ body{
 }
 .logo img{
      width: 100%;
-     opacity: 100%;
 }
 .log-in .title{
      height: 25%;
@@ -114,15 +113,17 @@ body{
      font-size: 16px;
      padding: 5px;
 }
-#remember::placeholder{
-     color: white;
-     font-weight: 600;
+
+#username::placeholder{
+     font-size: 16px;
+     color: rgba(255, 255, 255, 0.8);
 }
-.log-in input::placeholder{
+#password::placeholder{
      font-size: 16px;
      color: rgba(255, 255, 255, 0.8);
 }
 #remember::placeholder{
+     font-size: 16px;
      color: white;
      font-weight: 600;
 }
